@@ -1,0 +1,42 @@
+08-Feb-2020 11:46:18.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+08-Feb-2020 11:46:18.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+08-Feb-2020 11:46:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+08-Feb-2020 11:46:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-Feb-2020 11:46:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-Feb-2020 11:46:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Feb-2020 11:46:18.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+08-Feb-2020 11:46:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+08-Feb-2020 11:46:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Feb-2020 11:46:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23
+08-Feb-2020 11:46:18.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23
+08-Feb-2020 11:46:18.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\conf\logging.properties
+08-Feb-2020 11:46:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2020 11:46:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2020 11:46:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2020 11:46:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23
+08-Feb-2020 11:46:18.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23
+08-Feb-2020 11:46:18.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\temp
+08-Feb-2020 11:46:18.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\THANH TAI\AppData\Local\Microsoft\WindowsApps;;.]
+08-Feb-2020 11:46:19.113 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Feb-2020 11:46:19.352 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Feb-2020 11:46:19.356 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2020 11:46:19.359 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Feb-2020 11:46:19.359 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 968 ms
+08-Feb-2020 11:46:19.398 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2020 11:46:19.398 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+08-Feb-2020 11:46:19.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\axis]
+08-Feb-2020 11:46:20.467 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Feb-2020 11:46:20.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\axis] has finished in [1,137] ms
+08-Feb-2020 11:46:20.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\docs]
+08-Feb-2020 11:46:20.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\docs] has finished in [53] ms
+08-Feb-2020 11:46:20.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\examples]
+08-Feb-2020 11:46:21.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\examples] has finished in [846] ms
+08-Feb-2020 11:46:21.447 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\host-manager]
+08-Feb-2020 11:46:21.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\host-manager] has finished in [41] ms
+08-Feb-2020 11:46:21.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\manager]
+08-Feb-2020 11:46:21.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\manager] has finished in [39] ms
+08-Feb-2020 11:46:21.528 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\ROOT]
+08-Feb-2020 11:46:21.555 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\THANH TAI\Desktop\apache-tomcat-8.5.23\webapps\ROOT] has finished in [27] ms
+08-Feb-2020 11:46:21.560 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Feb-2020 11:46:21.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Feb-2020 11:46:21.571 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2211 ms

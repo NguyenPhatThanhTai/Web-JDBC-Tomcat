@@ -1,0 +1,25 @@
+Deploy:
+  java org.apache.axis.client.AdminClient deploy.xml
+
+Usage:
+  java samples.stock.GetQuote [options] <symbol>...
+
+  options:
+    -d           turn on debugging - more 'd means more info
+    -h<HOST>     server host name
+    -l<URL>      ie. http://localhost:80/axis/servlet/AxisServlet
+    -p<PORT#>    server port number
+    -s<SERVLET>  ie. axis/servlet/AxisServlet
+    -u<USERID>   user-id
+    -w<PASSWD>   password
+
+If you use the authorization and authentication handlers you'll need
+to add a couple of files to your Servlet Engine's current dir:
+
+users.lst
+ - list of users and passwords
+
+perms.lst
+ - list of users and allowable actions per user
+
+I've included some samples in this dir.
