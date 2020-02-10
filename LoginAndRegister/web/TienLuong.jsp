@@ -27,13 +27,9 @@
 
 <form class="form-horizontal" action="XuLyTienLuong" method="post">
 </form>
+<marquee direction="left" behavior="slide" scrollamount="900">
 <h1 align="center" style="color: white">Thông tin tiền lương</h1>
-<table border="1" style="border-collapse: collapse;" width="80%" align="center">
-    <tr>
-        <th style="color: white">STT</th>
-        <th style="color: white">Tên</th>
-        <th style="color: white">Tiền Lương</th>
-    </tr>
+</marquee>
 
     <%
         ArrayList<TienLuong> list = new KhachHangDao().getList();
@@ -43,14 +39,19 @@
             String urlr = "remove.jsp?id="+s.getTenNV();
     %>
 
-    <tr>
-        <td style="color: white"><%= i++ %></td>
-        <td style="color: white"><%= s.getTenNV() %></td>
-        <td style="color: white"><%= s.getTienLuong()%></td>
+    <div class="container">
+        <marquee direction="left" behavior="slide" scrollamount="500">
+        <h1 style="color: white"><%="Tên nhân viên: " + s.getTenNV() %></h1>
+        </marquee>
+        <marquee direction="left" behavior="slide" scrollamount="300">
+        <h1 style="color: red"><%= "Số tiền: " + s.getTienLuong()%></h1>
+        </marquee>
 
-    </tr>
+
+
+    </div>
     <%}%>
-</table>
+
 </body>
 </html>
 

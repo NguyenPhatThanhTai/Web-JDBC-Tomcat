@@ -83,5 +83,12 @@
   </div>
 
 </div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<div class="navbar-bottom">
+  <marquee onmouseover="this.stop()" onmouseout="this.start()" direction="right"  scrollamount="900">
+  <h5 style="color: white">chỉ là test thôi mà</h5>
+</marquee>
+</div>
+
 </body>
 </html>
