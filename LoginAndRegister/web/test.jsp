@@ -1,34 +1,39 @@
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: THANH TAI
+  Date: 2/15/2020
+  Time: 9:09 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>Title</title>
+</head>
 <body>
+<form class="pure-form">
+        <legend>Confirm password with HTML5</legend>
 
+        <input type="password" placeholder="Password" id="password" required>
+        <input type="password" placeholder="Confirm Password" id="confirm_password" required>
 
-<div class="form-group">
-    <label style="color: white" class="control-label col-sm-2" for="1so">Tài khoản:</label>
-    <div class="col-sm-10">
-        <input type="text" class="form-control" id="1so" name="username1" placeholder="ví dụ: abcd0107">
-        <p id="TK"></p>
-    </div>
-</div>
+        <button type="submit" class="pure-button pure-button-primary">Confirm</button>
+</form>
 
-<div onclick="myFunction()" class="form-group">
-    <label style="color: white" class="control-label col-sm-2" for="2so">Tài khoản:</label>
-    <div class="col-sm-10">
-        <input type="text" class="form-control" id="2so" name="username2" placeholder="ví dụ: abcd0107">
-    </div>
-</div>
+<script>
+    let password = document.getElementById("password")
+        , confirm_password = document.getElementById("confirm_password");
 
-
-<p>Nhấn vào nút bên trên để chạy hàm in ra chữ "Xin chào" trong thẻ p với id="demo".</p>
-
-<script type="text/javascript">
-    function myFunction() {
-
-        if ( document.getElementById("1so").value == "" )
-    {
-            document.getElementById("TK").innerHTML = "Không được để trống";
+    function validatePassword(){
+        if(password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
         }
     }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
 </script>
 
 </body>

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css.css"> <!-- phần text/css định dạng là css hay scss -->
 </head>
 
 
@@ -43,24 +44,17 @@
 <%--      <li><a href="#">Page 2</a></li>--%>
 <%--    </ul>--%>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="DangKy.jsp"><span class="glyphicon glyphicon-user"></span> Đăng kí</a></li>
-      <li><a href="DangNhap.jsp"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+      <li><a href="DangKy.jsp"><span class="glyphicon glyphicon-user"></span> Register </a></li>
+      <li><a href="DangNhap.jsp"><span class="glyphicon glyphicon-log-in"></span> Sign In </a></li>
 <%--      <li><a href="DangXuat"><span class="glyphicon glyphicon-user"></span> Đăng xuất</a></li>--%>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-  <marquee direction="left" behavior="slide" scrollamount="50">
-  <span style="text-align: center ;color: white"><h3>Xin chào các bạn, xin mời <a href="DangNhap.jsp">Đăng nhập</a>,
-                nếu chưa có tài khoản xin mời <a href="DangKy.jsp">Đăng ký</a> </h3></span>
-  </marquee>
-
-  <marquee direction="right" behavior="slide" scrollamount="50">
-    <iframe style=""
-      src="http://free.timeanddate.com/clock/i74xyx5d/n4068/tlvn/fs16/fcfff/tc000/ftb/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0"
-            width="204" height="53">
-    </iframe>
+  <marquee direction="up" behavior="slide" scrollamount="7">
+  <span style="text-align: center ;color: white"><h3>Hello  every  one ,  if  you  already  have  a  account ,  please  <a href="DangNhap.jsp" style="color: red">Sign In</a>,
+                else  please  <a href="DangKy.jsp" style="color: red">Register</a> </h3></span>
   </marquee>
 
 
@@ -83,12 +77,27 @@
   </div>
 
 </div>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-<div class="navbar-bottom">
-  <marquee onmouseover="this.stop()" onmouseout="this.start()" direction="right"  scrollamount="900">
-  <h5 style="color: white">chỉ là test thôi mà</h5>
-</marquee>
-</div>
+
+<body>
+
+<h1>
+  <span>H</span>
+  <span>E</span>
+  <span>L</span>
+  <span>L</span>
+  <span>O</span>
+  </br>
+  <span>E</span>
+  <span>V</span>
+  <span>E</span>
+  <span>R</span>
+  <span>Y</span>
+  <span> </span>
+  <span>O</span>
+  <span>N</span>
+  <span>E</span>
+</h1>
+</body>
 
 </body>
 </html>

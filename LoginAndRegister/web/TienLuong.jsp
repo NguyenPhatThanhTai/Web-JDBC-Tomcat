@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<%--    <link rel="stylesheet" type="text/css" media="screen" href="css.css"> <!-- phần text/css định dạng là css hay scss -->--%>
 </head>
 <body background="tai.jpg">
 
@@ -28,7 +29,7 @@
 <form class="form-horizontal" action="XuLyTienLuong" method="post">
 </form>
 <marquee direction="left" behavior="slide" scrollamount="900">
-<h1 align="center" style="color: white">Thông tin tiền lương</h1>
+<h1 align="center" style="color: white">Your salary</h1>
 </marquee>
 
     <%
@@ -41,16 +42,17 @@
 
     <div class="container">
         <marquee direction="left" behavior="slide" scrollamount="500">
-        <h1 style="color: white"><%="Tên nhân viên: " + s.getTenNV() %></h1>
+        <input style="color: white"><%="Staff name: " + s.getTenNV() %></input>
         </marquee>
         <marquee direction="left" behavior="slide" scrollamount="300">
-        <h1 style="color: red"><%= "Số tiền: " + s.getTienLuong()%></h1>
+        <h1 style="color: red"><%= "Salary: " + s.getTienLuong()%></h1>
         </marquee>
 
 
 
     </div>
     <%}%>
+
 
 </body>
 </html>
