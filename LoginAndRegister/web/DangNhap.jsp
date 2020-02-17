@@ -47,7 +47,7 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button onclick="myFunction1(), myFunction2()" type="submit" class="btn btn-success">Sign in</button>
+                <button onclick="myFunction1(), myFunction2()" type="submit" class="btn btn-success">Login</button>
                 <p style="color: red; text-align: left" id="TK3"></p>
             </div>
         </div>
@@ -73,22 +73,20 @@
 </script>
 
 
+
+
 <body>
 
 <h1>
-    <span>S</span>
+    <span>L</span>
     <span>  </span>
-    <span>I</span>
+    <span>O</span>
     <span>  </span>
     <span>G</span>
     <span>  </span>
-    <span>N</span>
-    </br>
-    <span>U</span>
+    <span>I</span>
     <span>  </span>
-    <span>P</span>
-    <span>  </span>
-    <span>!</span>
+    <span> N </span>
 
 </h1>
 </body>

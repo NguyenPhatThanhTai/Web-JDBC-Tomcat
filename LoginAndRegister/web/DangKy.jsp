@@ -1,4 +1,6 @@
 <%@ page import="Module.KhachHang" %>
+<%@ page import="Controller.XuLyDangKy" %>
+<%@ page import="Dao.KhachHangDao" %>
 <%@ page language="java" contentType="text/html; charset=utf-8"
          pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -36,13 +38,13 @@
     <div class="form-group">
         <label style="color: white" class="control-label col-sm-2" for="email">Account: </label>
         <div class="col-sm-10">
-            <input   type="text" class="form-control" id="email" name="username" placeholder="Example: abcd123" required>
+            <input type="text" class="form-control" id="email" name="username" placeholder="Example: abcd123" required>
         </div>
     </div>
     <div class="form-group">
         <label style="color: white" class="control-label col-sm-2" for="pwd">PassWord: </label>
         <div class="col-sm-10">
-            <input  type="password" class="form-control" id="pwd" name="pass" placeholder="Enter your PassWord..." required >
+            <input   type="password" class="form-control" id="pwd" name="pass" placeholder="Enter your PassWord..." required >
         </div>
     </div>
         <div class="form-group">
@@ -59,7 +61,7 @@
     </div>
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-            <button onclick="myFunction1(), myFunction2(), myFunction3(), validatePassword()" type="submit" class="btn btn-success">Register</button>
+            <button onchange="myFunction1(), myFunction2(), myFunction3(), validatePassword()" type="submit" class="btn btn-success">Register</button>
             <p style="color: red; text-align: left" id="TK3"></p>
             <p style="color: red; text-align: left" id="TK4"></p>
         </div>
@@ -99,14 +101,22 @@
         if(password.value != confirm_password.value) {
             document.getElementById("TK4").innerHTML = "Password and Repassword don't MATCH !!!";
             confirm_password.setCustomValidity("Passwords Don't Match");
-        } else {
+        }
+        else if(password.value.length < 8 ){
+            document.getElementById("TK3").innerHTML = "Passwords need is more than 8 character";
+            password.setCustomValidity("Passwords need is more than 8 character");
+        }
+
+        else {
             confirm_password.setCustomValidity('');
         }
     }
 
     password.onchange = validatePassword;
+    password.onchange = validatePassword;
     confirm_password.onkeyup = validatePassword;
 </script>
+
 
 <body>
 

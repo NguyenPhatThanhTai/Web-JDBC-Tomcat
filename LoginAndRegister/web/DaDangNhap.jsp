@@ -21,7 +21,8 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Welcome <%
                 KhachHang kh =(KhachHang) session.getAttribute("user");
-                if(kh!=null){
+                if(kh!=null)
+                {
                     out.print(kh.getName());
                 }
             %></a>

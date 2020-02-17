@@ -4,13 +4,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Demo đăng nhập</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Green Pink</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" media="screen" href="css.css"> <!-- phần text/css định dạng là css hay scss -->
+
 </head>
 
 
@@ -45,7 +47,7 @@
 <%--    </ul>--%>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="DangKy.jsp"><span class="glyphicon glyphicon-user"></span> Register </a></li>
-      <li><a href="DangNhap.jsp"><span class="glyphicon glyphicon-log-in"></span> Sign In </a></li>
+      <li><a href="DangNhap.jsp"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
 <%--      <li><a href="DangXuat"><span class="glyphicon glyphicon-user"></span> Đăng xuất</a></li>--%>
     </ul>
   </div>
@@ -53,7 +55,7 @@
 
 <div class="container">
   <marquee direction="up" behavior="slide" scrollamount="7">
-  <span style="text-align: center ;color: white"><h3>Hello  every  one ,  if  you  already  have  a  account ,  please  <a href="DangNhap.jsp" style="color: red">Sign In</a>,
+  <span style="text-align: center ;color: white"><h3>Hello  every  one ,  if  you  already  have  a  account ,  please  <a href="DangNhap.jsp" style="color: red">Login</a>,
                 else  please  <a href="DangKy.jsp" style="color: red">Register</a> </h3></span>
   </marquee>
 

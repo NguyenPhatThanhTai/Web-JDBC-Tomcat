@@ -32,6 +32,8 @@ public class XuLyDangKy extends HttpServlet {
 
         if(new KhachHangDao().kiemTraDangKy(username))
         {
+            HttpSession session = request.getSession(); // khởi tạo hàm chuyển hướng
+            session.setAttribute("name", kh); // hàm chuyển hướng đến người dùng đó khi đăng nhập thành công
             response.sendRedirect("loidangki.jsp");
         }else
         {
