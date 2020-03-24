@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Virus</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/
+jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootsrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="table-reponsive">
+        <h1 style="text-align: center">Information about Covid-19</h1>
+        <br />
+
+        <table class="table table-bordered table-striped" id="virus">
+            <tr>
+                <th>Country</th>
+                <th>Confirmed</th>
+                <th>Deaths</th>
+                <th>Recovered</th>
+
+            </tr>
+
+
+
+        </table>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        headers.append('Access-Control-Allow-Origin', '*');
+        // $.getJSON("https://covid-19api.com/api/countries-latest", function (corona) {
+        //     var virus_data = '';
+        //     $.each(corona, function (key, value) {
+        //         virus_data += '<tr>';
+        //         virus_data += '<td> '+value.country+' </td>';
+        //         virus_data += '<td> '+value.confirmed+' </td>';
+        //         virus_data += '<td> '+value.deaths+' </td>';
+        //         virus_data += '<td> '+value.recovered+' </td>';
+        //
+        //     });
+        //     $('#virus').append(virus_data);
+        // })
+
+
+        $.ajax({
+            data: 'GET',
+            url: 'https://ncovi.huynhhieu.com/api.php?code=external&fbclid=IwAR3JhX26KhvZmG3rUECy8UPfgkH0snH2EArpNdXXkNucXDLAPIQj1DbmaEk',
+            success: function(data)
+            {
+                var result = JSON.parse(data);
+                console.log(result.data[0]);
+                var virus_data = '';
+                $.each(result.data, function (key, value) {
+                    virus_data += '<tr>';
+                    virus_data += '<td> '+value.country+' </td>';
+                    virus_data += '<td> '+value.cases+' </td>';
+                    virus_data += '<td> '+value.deaths+' </td>';
+                    virus_data += '<td> '+value.recovered+' </td>';
+
+                })
+                $('#virus').append(virus_data);
+
+            },
+
+
+        })
+    });
+
+
+</script>
+
+

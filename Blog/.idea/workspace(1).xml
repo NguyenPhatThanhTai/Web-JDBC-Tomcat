@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3b8fb87-59b5-4f03-a61e-4fb5fe96db61" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1ZIqiPzdiq4c6x8cVZc3IZNcWdx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-huflit-master" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.corona.html">
+    <configuration name="corona.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Blog/corona.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.corona.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3b8fb87-59b5-4f03-a61e-4fb5fe96db61" name="Default Changelist" comment="" />
+      <created>1584537082930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584537082930</updated>
+      <workItem from="1584537084142" duration="4140000" />
+      <workItem from="1584626371647" duration="97000" />
+      <workItem from="1584706771626" duration="282000" />
+      <workItem from="1584707820314" duration="3217000" />
+      <workItem from="1584711864358" duration="1021000" />
+      <workItem from="1584712981179" duration="195000" />
+      <workItem from="1585016940410" duration="222000" />
+      <workItem from="1585018303622" duration="45000" />
+      <workItem from="1585024843609" duration="15258000" />
+      <workItem from="1585041638821" duration="5190000" />
+      <workItem from="1585048390944" duration="4088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="475" y="23" key="#PHP" timestamp="1585038707053">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="475" y="23" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1585038707053" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585044716243">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1585044716243" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1585048522822">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585048522822" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1585048449808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585048449808" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1585048449807">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585048449807" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1585048449807">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585048449807" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1585048449807">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585048449807" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1585048449809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585048449809" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1585048449808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585048449808" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1585048449808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585048449808" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1585048449808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585048449808" />
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom" timestamp="1585048449809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585048449809" />
+    <state width="1493" height="277" key="GridCell.Tab.2.center" timestamp="1585048449809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1585048449809" />
+    <state width="1493" height="277" key="GridCell.Tab.2.left" timestamp="1585048449809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1585048449809" />
+    <state width="1493" height="277" key="GridCell.Tab.2.right" timestamp="1585048449809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1585048449809" />
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1585038849139">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1585038849139" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585041664073">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585041664073" />
+  </component>
+</project>

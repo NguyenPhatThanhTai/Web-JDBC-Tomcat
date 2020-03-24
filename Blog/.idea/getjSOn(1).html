@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript - read JSON from URL</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+    bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/
+    js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="table-responsive">
+            <h1>hiiiiiii</h1>
+            </br>
+
+            <table class="table table-bordered table-striped" id="virusnoel">
+                <tr>
+                    <th>country</th>
+                    <th>cases</th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function() {
+        $.getJSON("https://ncovi.huynhhieu.com/api.php?code=external&fbclid=IwAR3JhX26KhvZmG3rUECy8UPfgkH0snH2EArpNdXXkNucXDLAPIQj1DbmaEk", function(data) {
+            var virus = '';
+            $.each(data, function(key, value) {
+                virus += '<tr>';
+                virus += '<tr>' + value.country + '</td>';
+                virus += '<tr>' + value.cases + '</td>'
+            });
+            $('#virusnoel').append(virus);
+        });
+    });
+</script>
